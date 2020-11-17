@@ -9,15 +9,15 @@ import socket
 import itertools
 import codecs
 
-SECTOR_TICKET = ""
-WORKER_DO_ADDR = ""
-WORKER_DO_PORT = 1111
-GET_BASE_INFO_FROM_ADDR = ""
-GET_BASE_INFO_FROM_PORT = 1111
-MODEL_MINER = 1188
-MODEL_NUMBER = 8282
-TODO_MINER = 1281
-TODO_SECTOR_ID = 6666
+SECTOR_TICKET = " "
+WORKER_DO_ADDR = "192.168.32.211"
+WORKER_DO_PORT = 18101
+GET_BASE_INFO_FROM_ADDR = "127.0.0.1"
+GET_BASE_INFO_FROM_PORT = 18095
+MODEL_MINER = 1000
+MODEL_NUMBER = 4
+TODO_MINER = 1111
+TODO_SECTOR_ID = 88888
 
 
 class RPCClient(object):
@@ -44,9 +44,9 @@ class RPCClient(object):
         }
         """
 
-        mesg = self._codec.dumps(req)
+        mesg = self._codec.dumps(req).encode()
         # print(mesg)
-        self._socket.sendall(mesg.encode())
+        self._socket.sendall(mesg)
 
         # This will actually have to loop if resp is bigger
         resp = self._socket.recv(4096)
@@ -82,8 +82,7 @@ def do_p1():
                        }
                        }]
     # close(rpc)
-    back["Ticket"] = codecs.encode(
-        codecs.decode(SECTOR_TICKET, 'hex'), 'base64').decode()
+    back["Ticket"] =codecs.decode(SECTOR_TICKET, 'hex')
     rpc2 = RPCClient((WORKER_DO_ADDR, WORKER_DO_PORT))
     rpc2.call("WorkerRpc.DoTask", back)
 
