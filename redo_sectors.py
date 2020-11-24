@@ -9,15 +9,15 @@ import socket
 import itertools
 import codecs
 
-SECTOR_TICKET = " "
-WORKER_DO_ADDR = "192.168.32.211"
-WORKER_DO_PORT = 18101
-GET_BASE_INFO_FROM_ADDR = "127.0.0.1"
-GET_BASE_INFO_FROM_PORT = 18095
-MODEL_MINER = 1000
-MODEL_NUMBER = 4
-TODO_MINER = 1111
-TODO_SECTOR_ID = 88888
+SECTOR_TICKET = " "  # lotus-miner sectors status [sectorID] 查看ticket
+WORKER_DO_ADDR = "192.168.32.211"  # 执行任务worker的ip
+WORKER_DO_PORT = 18101  # worker端口
+GET_BASE_INFO_FROM_ADDR = "127.0.0.1"   # 本地启动一个测试集群，用于获取数据模板
+GET_BASE_INFO_FROM_PORT = 18095  # 本地测试的端口
+MODEL_MINER = 1000  # 本地测试miner号
+MODEL_NUMBER = 4  # 本地测试sectorId
+TODO_MINER = 1111  # 需要重做的miner
+TODO_SECTOR_ID = 88888  # 需要重做的sectorID
 
 
 class RPCClient(object):
@@ -94,5 +94,7 @@ def do_p2():
     rpc2.call("WorkerRpc.DoTask", aaa)
 
 if __name__ == '__main__':
+    #  先执行完P1
     do_p1()
+    # 等P1完成后再注销p1执行p2
     # do_p2()
