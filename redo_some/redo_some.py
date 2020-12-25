@@ -1,7 +1,6 @@
 import os
 import requests
 import copy
-import json
 
 BASE_CACHE_PATH1 = "/mnt/nvme1/cache"
 BASE_CACHE_PATH2 = "/mnt/nvmeraid/cache"
