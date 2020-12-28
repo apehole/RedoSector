@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10e169f3-c8ac-4f19-a541-9fba06ec35fd" name="Default Changelist" comment="添加注释">
+    <list default="true" id="10e169f3-c8ac-4f19-a541-9fba06ec35fd" name="Default Changelist" comment="redo some">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redo_sectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/redo_sectors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +63,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3816092" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -286,7 +291,10 @@
       <workItem from="1607062998878" duration="1194000" />
       <workItem from="1607303578118" duration="51000" />
       <workItem from="1608618224117" duration="8000" />
-      <workItem from="1608861739872" duration="40000" />
+      <workItem from="1608861739872" duration="237000" />
+      <workItem from="1608958513353" duration="7000" />
+      <workItem from="1608997789939" duration="20000" />
+      <workItem from="1609123192450" duration="126000" />
     </task>
     <task id="LOCAL-00001" summary="添加注释">
       <created>1606203856110</created>
@@ -295,7 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606203856110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redo some">
+      <created>1608861866964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608861866964</updated>
+    </task>
+    <task id="LOCAL-00003" summary="redo some">
+      <created>1608861958875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608861958875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,17 +337,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
+    <MESSAGE value="redo some" />
+    <option name="LAST_COMMIT_MESSAGE" value="redo some" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="228" key="#Inspections" timestamp="1605592706108">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="414" y="228" key="#Inspections/0.23.1920.977@0.23.1920.977" timestamp="1605592706108" />
-    <state x="283" y="163" key="#Project_Structure" timestamp="1608861778533">
+    <state x="283" y="163" key="#Project_Structure" timestamp="1609123317986">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="283" y="163" key="#Project_Structure/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1608861778533" />
+    <state x="283" y="163" key="#Project_Structure/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609123317986" />
     <state x="283" y="163" key="#Project_Structure/0.23.1920.977@0.23.1920.977" timestamp="1605592739175" />
     <state x="1363" y="591" key="#Project_Structure/1080.440.1920.1057/0.23.1080.1830@1080.440.1920.1057" timestamp="1606203502137" />
     <state x="1363" y="591" key="#Project_Structure/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448785360" />
@@ -445,9 +468,10 @@
     </state>
     <state x="1800" y="600" key="SettingsEditor/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448757959" />
     <state x="1865" y="518" key="SettingsEditor/1080.440.1920.977/0.23.1080.1897@1080.440.1920.977" timestamp="1607062974220" />
-    <state x="1601" y="667" key="Vcs.Push.Dialog.v2" timestamp="1606203862444">
-      <screen x="1080" y="440" width="1920" height="1057" />
+    <state x="521" y="233" key="Vcs.Push.Dialog.v2" timestamp="1608861964152">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
+    <state x="521" y="233" key="Vcs.Push.Dialog.v2/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1608861964152" />
     <state x="521" y="233" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1605592989788" />
     <state x="1601" y="667" key="Vcs.Push.Dialog.v2/1080.440.1920.1057/0.23.1080.1830@1080.440.1920.1057" timestamp="1606203862444" />
     <state x="680" y="242" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604922321361">
