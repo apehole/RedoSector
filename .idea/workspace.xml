@@ -22,8 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10e169f3-c8ac-4f19-a541-9fba06ec35fd" name="Default Changelist" comment="redo some">
+    <list default="true" id="10e169f3-c8ac-4f19-a541-9fba06ec35fd" name="Default Changelist" comment="make redo cmd">
+      <change afterPath="$PROJECT_DIR$/make_redo_cmd/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make_redo_cmd/redo_cmd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make_redo_cmd/make_redo_cmd.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_redo_cmd/make_redo_cmd.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3816092" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="PyDebuggerOptionsProvider">
@@ -73,18 +76,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.make_redo_cmd">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="RedoSector" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +137,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_redo_cmd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/make_redo_cmd" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_redo_cmd/make_redo_cmd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,9 +273,11 @@
     <list>
       <item itemvalue="Python.redo_sectors" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.make_redo_cmd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.make_redo_cmd" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.redo_sectors" />
       </list>
@@ -294,7 +310,8 @@
       <workItem from="1608861739872" duration="237000" />
       <workItem from="1608958513353" duration="7000" />
       <workItem from="1608997789939" duration="20000" />
-      <workItem from="1609123192450" duration="126000" />
+      <workItem from="1609123192450" duration="2644000" />
+      <workItem from="1609157724767" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="添加注释">
       <created>1606203856110</created>
@@ -317,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608861958875</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="make redo cmd">
+      <created>1609123503217</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609123503217</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +362,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加注释" />
     <MESSAGE value="redo some" />
-    <option name="LAST_COMMIT_MESSAGE" value="redo some" />
+    <MESSAGE value="make redo cmd" />
+    <option name="LAST_COMMIT_MESSAGE" value="make redo cmd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="228" key="#Inspections" timestamp="1605592706108">
@@ -354,17 +379,23 @@
     <state x="1363" y="591" key="#Project_Structure/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448785360" />
     <state x="1363" y="591" key="#Project_Structure/1080.440.1920.1057/0.23.1080.1842@1080.440.1920.1057" timestamp="1607303627256" />
     <state x="1363" y="580" key="#Project_Structure/1080.440.1920.977/0.23.1080.1897@1080.440.1920.977" timestamp="1607063062601" />
-    <state x="1713" y="536" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607063114803">
-      <screen x="1080" y="440" width="1920" height="977" />
+    <state x="157" y="169" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609124190553">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
+    <state x="157" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609124190553" />
     <state x="1513" y="630" key="#com.intellij.execution.impl.EditConfigurationsDialog/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448631308" />
     <state x="1713" y="536" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/1080.440.1920.977/0.23.1080.1897@1080.440.1920.977" timestamp="1607063114803" />
-    <state width="1477" height="232" key="GridCell.Tab.0.bottom" timestamp="1607063607945">
-      <screen x="1080" y="440" width="1920" height="977" />
+    <state x="612" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609123589705">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="612" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609123589705" />
+    <state width="1477" height="252" key="GridCell.Tab.0.bottom" timestamp="1609135161074">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1151" height="247" key="GridCell.Tab.0.bottom/0.23.1536.876@0.23.1536.876" timestamp="1605067353407" />
     <state width="1494" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1604929863788" />
     <state width="1151" height="233" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1605014292050" />
+    <state width="1477" height="252" key="GridCell.Tab.0.bottom/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609135161074" />
     <state width="1477" height="359" key="GridCell.Tab.0.bottom/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448790654" />
     <state width="1477" height="359" key="GridCell.Tab.0.bottom/1080.440.1920.1057/0.23.1080.1835@1080.440.1920.1057" timestamp="1606448502901" />
     <state width="1477" height="367" key="GridCell.Tab.0.bottom/1080.440.1920.1057/0.23.1080.1837@1080.440.1920.1057" timestamp="1606539808049" />
@@ -373,12 +404,13 @@
     <state width="1151" height="264" key="GridCell.Tab.0.bottom/1920.23.1536.937/0.23.1920.991@0.23.1920.991" timestamp="1605006308038" />
     <state width="1645" height="312" key="GridCell.Tab.0.bottom/1920.23.1792.1097/0.23.1920.991@0.23.1920.991" timestamp="1604927196809" />
     <state width="1645" height="312" key="GridCell.Tab.0.bottom/1920.23.1792.1097/0.23.1920.991@1920.23.1792.1097" timestamp="1604926248114" />
-    <state width="1477" height="232" key="GridCell.Tab.0.center" timestamp="1607063607944">
-      <screen x="1080" y="440" width="1920" height="977" />
+    <state width="1477" height="252" key="GridCell.Tab.0.center" timestamp="1609135161074">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1151" height="247" key="GridCell.Tab.0.center/0.23.1536.876@0.23.1536.876" timestamp="1605067353407" />
     <state width="1494" height="269" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1604929863787" />
     <state width="1151" height="233" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1605014292049" />
+    <state width="1477" height="252" key="GridCell.Tab.0.center/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609135161074" />
     <state width="1477" height="359" key="GridCell.Tab.0.center/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448790654" />
     <state width="1477" height="359" key="GridCell.Tab.0.center/1080.440.1920.1057/0.23.1080.1835@1080.440.1920.1057" timestamp="1606448502900" />
     <state width="1477" height="367" key="GridCell.Tab.0.center/1080.440.1920.1057/0.23.1080.1837@1080.440.1920.1057" timestamp="1606539808048" />
@@ -387,12 +419,13 @@
     <state width="1151" height="264" key="GridCell.Tab.0.center/1920.23.1536.937/0.23.1920.991@0.23.1920.991" timestamp="1605006308038" />
     <state width="1645" height="312" key="GridCell.Tab.0.center/1920.23.1792.1097/0.23.1920.991@0.23.1920.991" timestamp="1604927196807" />
     <state width="1645" height="312" key="GridCell.Tab.0.center/1920.23.1792.1097/0.23.1920.991@1920.23.1792.1097" timestamp="1604926248113" />
-    <state width="1477" height="232" key="GridCell.Tab.0.left" timestamp="1607063607944">
-      <screen x="1080" y="440" width="1920" height="977" />
+    <state width="1477" height="252" key="GridCell.Tab.0.left" timestamp="1609135161074">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1151" height="247" key="GridCell.Tab.0.left/0.23.1536.876@0.23.1536.876" timestamp="1605067353406" />
     <state width="1494" height="269" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1604929863787" />
     <state width="1151" height="233" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1605014292049" />
+    <state width="1477" height="252" key="GridCell.Tab.0.left/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609135161074" />
     <state width="1477" height="359" key="GridCell.Tab.0.left/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448790653" />
     <state width="1477" height="359" key="GridCell.Tab.0.left/1080.440.1920.1057/0.23.1080.1835@1080.440.1920.1057" timestamp="1606448502899" />
     <state width="1477" height="367" key="GridCell.Tab.0.left/1080.440.1920.1057/0.23.1080.1837@1080.440.1920.1057" timestamp="1606539808048" />
@@ -401,12 +434,13 @@
     <state width="1151" height="264" key="GridCell.Tab.0.left/1920.23.1536.937/0.23.1920.991@0.23.1920.991" timestamp="1605006308037" />
     <state width="1645" height="312" key="GridCell.Tab.0.left/1920.23.1792.1097/0.23.1920.991@0.23.1920.991" timestamp="1604927196807" />
     <state width="1645" height="312" key="GridCell.Tab.0.left/1920.23.1792.1097/0.23.1920.991@1920.23.1792.1097" timestamp="1604926248113" />
-    <state width="1477" height="232" key="GridCell.Tab.0.right" timestamp="1607063607945">
-      <screen x="1080" y="440" width="1920" height="977" />
+    <state width="1477" height="252" key="GridCell.Tab.0.right" timestamp="1609135161074">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1151" height="247" key="GridCell.Tab.0.right/0.23.1536.876@0.23.1536.876" timestamp="1605067353407" />
     <state width="1494" height="269" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1604929863787" />
     <state width="1151" height="233" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1605014292050" />
+    <state width="1477" height="252" key="GridCell.Tab.0.right/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609135161074" />
     <state width="1477" height="359" key="GridCell.Tab.0.right/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448790654" />
     <state width="1477" height="359" key="GridCell.Tab.0.right/1080.440.1920.1057/0.23.1080.1835@1080.440.1920.1057" timestamp="1606448502900" />
     <state width="1477" height="367" key="GridCell.Tab.0.right/1080.440.1920.1057/0.23.1080.1837@1080.440.1920.1057" timestamp="1606539808049" />
@@ -463,15 +497,16 @@
     <state width="1151" height="264" key="GridCell.Tab.1.right/1920.23.1536.937/0.23.1920.991@0.23.1920.991" timestamp="1605006308039" />
     <state width="1645" height="312" key="GridCell.Tab.1.right/1920.23.1792.1097/0.23.1920.991@0.23.1920.991" timestamp="1604927197174" />
     <state width="1645" height="312" key="GridCell.Tab.1.right/1920.23.1792.1097/0.23.1920.991@1920.23.1792.1097" timestamp="1604926249263" />
-    <state x="1865" y="518" key="SettingsEditor" timestamp="1607062974220">
-      <screen x="1080" y="440" width="1920" height="977" />
-    </state>
-    <state x="1800" y="600" key="SettingsEditor/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448757959" />
-    <state x="1865" y="518" key="SettingsEditor/1080.440.1920.977/0.23.1080.1897@1080.440.1920.977" timestamp="1607062974220" />
-    <state x="521" y="233" key="Vcs.Push.Dialog.v2" timestamp="1608861964152">
+    <state x="88" y="193" key="SettingsEditor" timestamp="1609124185015">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="521" y="233" key="Vcs.Push.Dialog.v2/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1608861964152" />
+    <state x="88" y="193" key="SettingsEditor/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609124185015" />
+    <state x="1800" y="600" key="SettingsEditor/1080.440.1920.1057/0.23.1080.1832@1080.440.1920.1057" timestamp="1606448757959" />
+    <state x="1865" y="518" key="SettingsEditor/1080.440.1920.977/0.23.1080.1897@1080.440.1920.977" timestamp="1607062974220" />
+    <state x="521" y="233" key="Vcs.Push.Dialog.v2" timestamp="1609123519429">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="521" y="233" key="Vcs.Push.Dialog.v2/0.23.1920.977/-1080.-394.1080.1897@0.23.1920.977" timestamp="1609123519429" />
     <state x="521" y="233" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1605592989788" />
     <state x="1601" y="667" key="Vcs.Push.Dialog.v2/1080.440.1920.1057/0.23.1080.1830@1080.440.1920.1057" timestamp="1606203862444" />
     <state x="680" y="242" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604922321361">
@@ -500,6 +535,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gettaskinfo$get_task.coverage" NAME="get_task Coverage Results" MODIFIED="1605066230892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RedoSector$make_redo_cmd.coverage" NAME="make_redo_cmd Coverage Results" MODIFIED="1609130122477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make_redo_cmd" />
     <SUITE FILE_PATH="coverage/RedoSector$redo_sectors.coverage" NAME="redo_sectors Coverage Results" MODIFIED="1606448788217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RedoSector$test.coverage" NAME="test Coverage Results" MODIFIED="1607063607939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
